@@ -1,0 +1,307 @@
+
+body{
+	background: url('https://wallpaperaccess.com/full/13652.jpg') no-repeat;
+	background-size: 100%;
+	/* fony pahuma hetevy fixvac attachment*/
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+	font-family: raleway;
+	
+}
+li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	
+}
+.menuCont{
+	display: flex;
+	flex-flow: nowrap;
+	justify-content: center;
+	align-content: center;
+	background: #84424245;
+	height: 180px;
+	border-radius: 0 0 100px 100px;
+	
+}
+
+.img{
+	background: url('https://upload.wikimedia.org/wikipedia/en/d/d9/Bmw_M_logo.png') no-repeat;
+    width: 370px;
+    height: 200px;
+    transform: scale(0.7);
+    position: relative;
+	top: -15px;
+    left: 0px;
+}
+
+.lists{
+	height: 100%;
+	
+	
+}
+
+.lists ul{
+	display: flex;
+}
+
+.lists li{
+	margin-right: 40px;
+	margin-top: 5%;
+	
+}
+
+.lists a{
+	background: #6f56564d;
+	font-size: 19px;
+    color: #000;
+    padding: 15px 30px;
+    display: block;
+	box-shadow: 0px 0px 5px 0px #0000008c;
+	transition: .2s linear;
+	border-radius: 8px;
+}
+
+.lists a:hover{
+	box-shadow: 0px 0px 8px 0px #0000008c;
+    text-shadow: 0px 2px 7px #fff;
+	transform: scale(1.25);
+	background: #4a38384d;
+	border-radius: 20px;
+}
+
+/* 1bloky verevna*/
+nav p{
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+	font-size: 20px;
+	color: #000;
+	background: #ffffff2b;
+	height: 50px;
+	margin: 0;
+	line-height: 50px;
+	
+	
+}
+/* 2bloky verevna*/
+.bigbox{
+    width: 60%;
+    height: 100%;
+	background: #4c4c4c87;
+	margin-top: 30px;
+}
+section{
+    display: flex;
+    justify-content: center;
+	
+}
+
+.bigbox h1{
+	font-size: 45px;
+    font-weight: normal;
+    text-shadow: 2px 2px 18px #fff;
+    border-bottom: 2px solid;
+    border-radius: 50px;
+    width: 377px;
+    margin: 20px;
+
+}
+
+.longtext p{
+	font-size: 18px;
+    padding: 10px 20px;
+    color: #fff;
+    line-height: 29px;
+	
+}
+
+.longtext h2{
+	font-size: 35px;
+    font-weight: normal;
+    text-shadow: 2px 2px 18px #fff;
+    width: 157px;
+    margin: 20px;
+	
+}
+.longtext h2 ~ h2{
+	font-size: 25px;
+    font-weight: normal;
+    text-shadow: 2px 2px 18px #fff;
+    width: 157px;
+    margin: 20px;
+	
+}
+
+.longtext p[name=theend]{
+	padding-top: 0;
+}
+.longtext a:nth-child(1){
+	color: #000;
+	font-size: 23px;
+}
+
+/* Ancanq article*/
+
+.pflex{
+	display: flex;
+	justify-content: center;
+}
+
+p[name=firsttext]{
+	margin-top: 40px;
+	margin-bottom: 30px;
+	margin-left: 0px;
+	margin-right: 0px;
+	font-size: 55px;
+	color: #000;
+	font-weight: 777;
+	text-shadow: -5px 5px 35px #000;
+}
+.conteiner-box{
+	display: flex;
+	justify-content: center;
+	
+}
+.artbox{
+	display: grid;
+    grid-template-columns: 270px 270px 270px;
+    justify-content: space-evenly;
+    grid-row-gap: 50px;
+    width: 80%;
+    height: 700px;
+    background: #4c4c4c87;
+    padding: 40px;
+}
+
+.artbox > div{
+	box-shadow: 0px 0px 15px 5px #6b5f5c;
+}
+
+.artbox p{
+    margin: 0;
+    text-align: center;
+    font-size: 24px;
+	font-weight: 777;
+    position: relative;
+    top: -30px;
+}
+
+.artbox a{
+	color: #000;
+}
+
+.cont1{
+	background: url('https://shop.r10s.jp/studieag/cabinet/img63893353.jpg') center;
+	background-size: cover;
+	
+}
+
+.cont2{
+	background: url('https://drive-my.com/images/easyblog_articles/692/F10-M5-1.jpg') center;
+	background-size: cover;
+	
+}
+
+.cont3{
+	background: url('https://media.philstar.com/images/articles/mot4_2018-09-18_17-30-59.jpg') center;
+	background-size: cover;
+	
+}
+
+.cont4{
+	background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/E24_635CSi_wiki.jpg/220px-E24_635CSi_wiki.jpg') center;
+	background-size: cover;
+	
+}
+
+.cont5{
+	background: url('http://www.bmwmregistry.com/media/m6/CompEdition.jpg') center;
+	background-size: cover;
+	
+}
+
+.cont6{
+	background: url('http://i.imgur.com/sojIPBo.jpg') center;
+	background-size: cover;
+	
+}
+
+.cont7{
+	background: url('https://image.ceneostatic.pl/data/products/68811809/i-bmw-x5-e53-2004-km-suv-czarny.jpg') center;
+	background-size: cover;
+	
+}
+
+.cont8{
+	background: url('https://i.wheelsage.org/pictures/b/bmw/g-power/x5_m_typhoon/g-power_bmw_x5_m_typhoon_8.jpg') center;
+	background-size: cover;
+	
+}
+
+.cont9{
+	background: url('https://www.wallpaperup.com/uploads/wallpapers/2015/05/29/703194/fd6afd3cf5829a052f960205168aa0c2-700.jpg') center;
+	background-size: cover;
+	
+}
+
+
+.bigbox2{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+
+.infomodels{
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 20px;
+    width: 80%;
+    background: #4c4c4c87;
+    padding: 40px;
+}
+
+.infomodels p{
+	color: #fff;
+    line-height: 25px;
+    font-size: 18px;
+	
+}
+
+.pflex2{
+	display: flex;
+	justify-content: center;
+}
+
+p[name=firsttext2]{
+	margin-top: 40px;
+	margin-bottom: 30px;
+	margin-left: 0px;
+	margin-right: 0px;
+	font-size: 55px;
+	color: #000;
+	font-weight: 777;
+	text-shadow: -5px 5px 35px #000;
+}
+
+
+.footer{
+	display: flex;
+	justify-content: center;
+	line-height: 80px;
+	background: #555;
+	height: 100px;
+	margin-top: 40px;
+}
+
+.footer p{
+	margin-left: 15px;
+	font-size: 15px;
+	
+	
+}
